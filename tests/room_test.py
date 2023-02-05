@@ -65,16 +65,16 @@ class TestRoom(unittest.TestCase):
     #     self.room_5.add_guest(self.guest_7)
     #     self.assertEqual(7, len(self.room_5.guests))
 
-    def test_add_guest_to_full_room(self):
-        self.room_5.add_guest(self.guest_1)
-        self.room_5.add_guest(self.guest_2)
-        self.room_5.add_guest(self.guest_3)
-        self.room_5.add_guest(self.guest_4)
-        self.room_5.add_guest(self.guest_5)
-        # self.room_5.add_guest(self.guest_6)
-        # self.room_5.add_guest(self.guest_7)
-        result = self.room_5.add_guest_to_full_room(self.guest_4)
-        self.assertEqual(result, "Sorry, room is full.")
+    # def test_add_guest_to_full_room(self):
+    #     self.room_5.add_guest(self.guest_1)
+    #     self.room_5.add_guest(self.guest_2)
+    #     self.room_5.add_guest(self.guest_3)
+    #     self.room_5.add_guest(self.guest_4)
+    #     self.room_5.add_guest(self.guest_5)
+    #     # self.room_5.add_guest(self.guest_6)
+    #     # self.room_5.add_guest(self.guest_7)
+    #     result = self.room_5.add_guest_to_full_room(self.guest_4)
+    #     self.assertEqual(result, "Sorry, room is full.")
 
    
 
